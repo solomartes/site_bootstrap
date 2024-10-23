@@ -13,3 +13,12 @@ body, main, footer, header {
 .col-4{
     align-content: center;
 }
+.card {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+footer{
+    margin: 100px;
+}
