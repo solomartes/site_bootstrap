@@ -1,0 +1,15 @@
+
+body, main, footer, header {
+    background-color: bisque;
+}
+
+
+.col-8, .col-4 {
+    background-color: rgb(243, 243, 243);
+}
+.container{
+    background-color: #ffe4c4;
+}
+.col-4{
+    align-content: center;
+}
