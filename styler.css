@@ -1,28 +1,59 @@
-
-body, main, footer, header {
+body,
+main,
+footer,
+header {
     background-color: bisque;
 }
 
 
-.col-8, .col-4 {
+.col-8,
+.col-4 {
     background-color: rgb(243, 243, 243);
 }
-.container{
+
+.container {
     background-color: #ffe4c4;
 }
-.col-4{
+
+.col-4 {
     align-content: center;
 }
+
 .card {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
-footer{
+
+footer {
     margin: 100px;
 }
-.img-fluid{
-    width: 100%; 
+
+.img-fluid {
+    width: 100%;
     height: auto;
+}
+
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 140pt;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-weight: 700;
+}
+
+.card {
+    height: 80%;
 }
